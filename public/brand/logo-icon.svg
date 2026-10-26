@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ShopEase icon-only logo (bare mark, no badge) for small spaces on light backgrounds. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ShopEase">
+  <path d="M25.5 24v-5a6.5 6.5 0 0 1 13 0v5" fill="none" stroke="#FF6B35" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M19.5 23h25q3.5 0 4.2 3.5l2.1 17q.7 5.5-4.8 5.5h-23q-5.5 0-4.8-5.5l2.1-17Q20.5 23 19.5 23Z" fill="#FF6B35"/>
+  <path d="M27 34.5a5 5 0 0 0 10 0" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+</svg>

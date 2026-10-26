@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;600;800;900&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1200px; height: 630px; overflow: hidden; }
+  body {
+    font-family: 'Geist', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+    background: #172033;
+    color: #ffffff;
+    position: relative;
+  }
+  .glow { position: absolute; border-radius: 9999px; filter: blur(90px); opacity: 0.35; }
+  .glow-1 { width: 420px; height: 420px; background: #FF6B35; top: -160px; right: -120px; }
+  .glow-2 { width: 360px; height: 360px; background: #FFC857; bottom: -180px; left: -140px; opacity: 0.18; }
+  .wrap {
+    position: relative; height: 100%;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    text-align: center; padding: 0 80px;
+  }
+  .badge { width: 128px; height: 128px; border-radius: 30px; box-shadow: 0 24px 60px rgba(255,107,53,0.4); }
+  h1 { font-size: 96px; font-weight: 900; letter-spacing: -3px; margin-top: 36px; line-height: 1; }
+  h1 .ease { color: #FF6B35; }
+  .tagline { margin-top: 22px; font-size: 34px; font-weight: 600; color: #A5ADBB; letter-spacing: -0.5px; }
+  .chips { margin-top: 40px; display: flex; gap: 14px; }
+  .chip {
+    font-size: 19px; font-weight: 600; color: #E7EAF0;
+    border: 1px solid rgba(255,255,255,0.16); background: rgba(255,255,255,0.06);
+    padding: 10px 22px; border-radius: 9999px;
+  }
+</style>
+</head>
+<body>
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+  <div class="wrap">
+    <img class="badge" src="/brand/icon-512.png" alt="">
+    <h1>Shop<span class="ease">Ease</span></h1>
+    <p class="tagline">Everything You Love, All in One Place.</p>
+    <div class="chips">
+      <span class="chip">Verified sellers</span>
+      <span class="chip">Secure payments</span>
+      <span class="chip">Easy returns</span>
+    </div>
+  </div>
+</body>
+</html>
