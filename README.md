@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ShopEase — Everything You Love, All in One Place
 
 <p align="center">
@@ -390,3 +391,7 @@ favicons aggressively — after a logo change, hard-refresh with Ctrl+Shift+R.
 See [`docs/KNOWN-LIMITATIONS.md`](docs/KNOWN-LIMITATIONS.md) — includes the
 production-readiness checklist (real payment provider, Redis-backed rate limiting,
 object storage, e-mail/SMS, background workers, migrations strategy, observability).
+=======
+# web-development-projects
+My web development projects showcasing responsive websites, creative designs, and modern web technologies.
+>>>>>>> 50cb9b1db5f8e5ce4e44c3ae47367801d642a64b
